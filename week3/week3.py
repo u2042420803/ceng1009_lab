@@ -1,42 +1,48 @@
-# width = float(input("enter the width of the rectangle: "))
-# height = float(input("enter the height of the rectangle: "))
+# width = float(input("Enter the width of the rectangle: "))
+# height = float(input("Enter the height of the rectangle: "))
 #
 # area = width * height
 #
-# print("the area of the rectangle is ", area)
+# print("The area of the rectangle is ", area)
 
 # miles = float(input("Enter miles: "))
 # gallons = float(input("Enter gallons: "))
 #
 # mpg = miles / gallons
-
-# print("Your car got", mpg, "miles per gallon")
-
-# fahrenheit = float(input("Fahrenheit: "))
 #
-# celsius = (fahrenheit - 32) * 5 / 9
+# print("MPG is", mpg)
+
+# fahrenheit = float(input("Enter a temperature in Fahrenheit: "))
 #
-# print("Celsius: " +  str(celsius))
+# celsius = (fahrenheit - 32) * (5 / 9)
+#
+# print(fahrenheit, "degrees Fahrenheit is ", celsius, "degrees Celsius")
 
 
-# start_day = int(input("Enter the starting day"))
-# length = int(input("How many days long is your vacation? "))
+# start_day = int(input("Enter the starting day: "))
+# vacation_length = int(input("Enter the length of the vacation: "))
 #
-# total = start_day + length
+# total = start_day + vacation_length
 #
 # end_day = total % 7
-# print("Your vacation ends on day number", end_day)
+#
+# print("Your vacation ends on the day", end_day)
+
 
 
 # import math
 # radius = float(input("Enter radius: "))
-# circumference = radius * 2 * math.pi
-# print("the circumference of the circle is ", circumference)
+# print(math.pi)
+# circumference = 2 * 3.14 * radius
+# circumference_with_real_pi = 2 * math.pi * radius
+# print("Circumference: ", circumference)
+# print("Circumference with real pi: ", circumference_with_real_pi)
 
 current_year = 2026
 
-birth_year = int(input("What year were you born?"))
+birth_year = int(input("Enter birth year: "))
 
-age = current_year - birth_year
+your_age = current_year - birth_year
 
-print("Your age is:", age)
+print("You are " + str(your_age) + " years old.")
+print("You are" ,your_age ,"years old.")
